@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chdnext_bench_commands *.css
+recursive-include chdnext_bench_commands *.csv
+recursive-include chdnext_bench_commands *.html
+recursive-include chdnext_bench_commands *.ico
+recursive-include chdnext_bench_commands *.js
+recursive-include chdnext_bench_commands *.json
+recursive-include chdnext_bench_commands *.md
+recursive-include chdnext_bench_commands *.png
+recursive-include chdnext_bench_commands *.py
+recursive-include chdnext_bench_commands *.svg
+recursive-include chdnext_bench_commands *.txt
+recursive-exclude chdnext_bench_commands *.pyc
